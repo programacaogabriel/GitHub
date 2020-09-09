@@ -1,0 +1,78 @@
+git - init : Ele irá fazer alterações na pasta em que voçê se encontra e as subpastas também.
+git status : status de um arquivo com relação ao git.
+git add (nome) ou .(todos os arquivos) : Adiciona na área de transfêrencia ou stage.
+git commit -m"Mensagem":  Tira as fotos e o -m adiciona uma mensagem.
+git commit -am"mensagem: Não pode ser feito sem os arquivos já estarem rastreados com o git add.
+git log : Mostra o snapshot de nosso projeto, um histórico.
+git checkot (23424252geg) : Mostra qualquer projeto em que você retirou as fotos.
+git checkout master: Retorna para o estado atual em que seu projeto está em adamento.
+readme.md: Escreva para oque aquele projeto foi desenvolvido.
+gitignore: Irá ignorar certos arquivos.
+git clone (nome do repositório): Clona os arquivos do GitHub para o seu computador.
+git push: Envia todo o repositório ao GitHub, sincronismo.
+git config user.name (nome): Colocar o nome de usuário para configurar.
+git config user.email (email): Colocar o email de usuário para configurar.
+git pull: Nos fornece uma atualização do repositorios local.
+git branch: Cria linhas do tempo alternativas ou outras branchs.
+git branch: Mostra todas as branchs.
+git branch -d (nome): Esclui a branch.
+git branch -D (nome): Esclui a branch incorporada ou não.
+git push -d origin (nome):  exclusão direto pelo repositorio local.
+git checkout -b (nome): Cria e já entra na branch.
+git merge: Seria como se estivesse recuperando a branch para linha principal ou junção a master.
+Em Master /git merge (nome): Faz a junção da branch na master.
+Fast-forward : Quando você faz um merge sem alterar nenhuma informação na Master.
+Recursive Strategy: Quer disser que o git irá fazer a juntação da linha master com a branch sem afetar nenhum dos arquivos criados de uma forma automática.
+conflict : Quando 2 pessoas fazem alterações em um mesmo arquivo.
+git log --graph: mini gráfico daquilo que aconteceu nas linhas do commit.
+git log --graph --oneline: Mostrar mais simplificado.
+Issues: Rastreios de bugs e Jugestão de ferramentas.
+Issues: #2, #3, seria o local aonde está o problemas. Exemplo: git commit -m"texto #2"
+git push origin (branch) : enviar outra branch sem ser a master, definindo a branch.
+git commit -m"texto closes #3: Fecha a Issue.
+git commit -m"texto fixes #3: Fecha a Issue.
+git add . && git commit -m'texto': adiciona e tira fotos.
+labels: Organizando nossas issues. Caminho issues,labels.
+@nome: masca o nome do usuario.
+milestone: agregadores de issues.
+git checkout (nome): remove todas as alterações feitas no projeto quando não estão na estage.
+git reset head: Remove o arquivo da estage.
+--decorate: Mostrar aonde está minha head.
+git reset head^:voltar para um passo anterior aonde a head está, o ^ é o numero de vezes para voltar.
+git rm --cached (nome) : O git não precisa mais rastrear as informações contidas nesse arquivo.
+git reset --hard(codigo): Reset pra o primeiro commit descartando todas as informações anteriores.
+Fork: Cópia de um repositório qualquer.
+upstream: Nosso repositorio central
+git remote add upstream (endereço): Adicionando uma copia ao nosso repositório já copiado na fork.
+git remote -v: Quantos repositorios remots temos.
+git pull upstream master: Trazer tudo oque foi mechido para nosso repositório, logo fazer o git push.
+git pull: trás todos os dados do repositório central.
+rebase: alterar a ordem dos commits, juntar varios commits em um só, editar a mensagem de cada um deles, todo o histórico.
+git rebase master: o git vai pegar todos os commits que estão na nossa branch, vai realocar-los em uma área temporária, 
+em seguida o pai dessa nova branch será realocado para frente de todos os commits da frente master. Tem que acessar a branch que você quer mudar o seu historico.
+git rebase --continue: para resolver casos de conflito.
+git rebase --skip: Fazer com oque está sendo inserido sem a alteração.
+git rebase --abort: cancelar o processo de rebase.
+git rebase -i (Ocodigopai): Interativa, irá abrir o bloco de notas com dados, para trocar
+o título apagar o PICK e colocar o r.
+git rebase -i(qualquercodigo): Unir commits com o s de squash. Ao abrir o bloco de notas ele irá pegar o de cima para unir.
+pull request: envia alterações para serem incorporadas a um projeto, discussões sobre o código, integrar código revisado ao projeto.
+git stash: guarda os arquivos feitos para resolver outros problemas.
+git stash apply: retorna todos os arquivos.
+git stash save: "Alteração no cadastro"
+git stash list: Dá uma lista de todos os stash.
+git stash --keep-index: levar para a stash oque eu ainda não levei para a stage.
+git stash pop: Por padrão, git stash pop vai reaplicar o stash criado mais há pouco tempo:
+Faça um commit para as alterações que foram feitas já façam algum sentido no projeto.
+
+
+
+
+
+untracked: não rastreado.
+
+stage: Área de transferencia. Para gravar usar o comando commit para criar os seus harscodes.
+
+
+commit : tira as fotos
+commited : Já foi tirados 
