@@ -64,15 +64,7 @@ git stash list: Dá uma lista de todos os stash.
 git stash --keep-index: levar para a stash oque eu ainda não levei para a stage.
 git stash pop: Por padrão, git stash pop vai reaplicar o stash criado mais há pouco tempo:
 Faça um commit para as alterações que foram feitas já façam algum sentido no projeto.
-
-
-
-
-
 untracked: não rastreado.
-
 stage: Área de transferencia. Para gravar usar o comando commit para criar os seus harscodes.
-
-
 commit : tira as fotos
 commited : Já foi tirados 
