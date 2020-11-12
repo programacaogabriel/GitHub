@@ -1,2 +1,2 @@
 # GitHub
-Alguns comando do GitHub
+Some commands GitHub
