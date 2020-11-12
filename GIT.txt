@@ -67,4 +67,4 @@ Faça um commit para as alterações que foram feitas já façam algum sentido n
 untracked: não rastreado.
 stage: Área de transferencia. Para gravar usar o comando commit para criar os seus harscodes.
 commit : tira as fotos
-commited : Já foi tirados 
+commited : Já foram tirados 
